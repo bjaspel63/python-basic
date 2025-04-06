@@ -1,0 +1,26 @@
+#!/bin/python3
+
+#variable
+x = 1
+y = 1
+print ("Total: ", x+y)   #specific value
+
+#user input
+x = input("Enter first number: ")      #first value
+y = input ("Enter second number: ")    #second value
+z = int(x) + int(y)
+print("Total: ",z)
+
+print("\n")      #extra spaces
+
+#user input
+x = float(input("Enter first number: "))      #first value
+y = float (input ("Enter second number: "))    #second value
+print("Total:",x+y)
+
+print("\n")       #extra spaces
+
+#text/string
+firstname = input ("Enter first name: ")
+lastname = input ("Enter last name: ")
+print ("Full name: ",firstname,"",lastname)
