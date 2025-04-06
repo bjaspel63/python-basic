@@ -1,0 +1,22 @@
+#!/bin/python3
+
+print("Salary Calculator")
+print("\n")
+
+
+while True:
+  Name = input("Enter Employee Name: ")
+  Num = input("Enter Employee Number: ")
+  WD = input("Enter Number of Working days: ")
+  Salary = float(input("Enter Salary per Day: "))
+  
+  print("\n")
+  SalaryTotal = float(Salary) * int(WD)
+  print("Employee Name: ",Name)
+  print("Salary: ",SalaryTotal)
+  
+  print("\n")
+  tryagain = input ("Do you want to try again?")
+  if tryagain == "no" or tryagain == "NO":
+    print("End of Program ...")
+    break
