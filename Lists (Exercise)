@@ -1,0 +1,16 @@
+#1. Creates a list of five numbers.
+#2. Adds a new number to the list.
+#3. Removes the first number from the list.
+#4. Prints the final list.
+
+# Step 1: Create a list
+numbers = [10, 20, 30, 40, 50]
+
+# Step 2: Add a new number
+numbers.append(60)
+
+# Step 3: Remove the first number
+numbers.remove(10)
+
+# Step 4: Print the final list
+print(numbers) # Output: [20, 30, 40, 50, 60]
