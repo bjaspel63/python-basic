@@ -1,0 +1,26 @@
+#!/bin/python3
+
+while True:
+  x = int(input("Enter First Number: "))
+  z = input("Enter Operator: ")
+  y = int(input("Enter Second Number: "))
+  
+  if z == "+":
+    print(x+y)
+    
+  elif z == "-":
+    print(x-y)
+    
+  elif z == "*":
+    print(x*y)
+    
+  elif z == "/":
+    print(x/y)
+    
+  else:
+    print("Invalid operator")
+  
+  tryagain = input ("Do you want to try again?")
+  if tryagain == "no" or tryagain == "NO":
+    print("Thank you for using this product!")
+    break
