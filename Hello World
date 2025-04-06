@@ -1,12 +1,23 @@
 #!/bin/python3
 
-print ("Hello World")
-print ("Thailand")
+from emoji import *
 
-print (3)
-print ("3")
+print(heart)
+print(cake)
+print(pizza)
 
-print(3+1)
-print("3+1")
-print("Hello","World!")
-print("The total is:", 3+1)
+print("Hello World")
+print('Jaspel Bosales')
+print("Philippines")
+
+print (2)
+print ("2")
+print("Total is: ", 2)
+print ("Hello", "WORLD!")
+
+print (1+1)
+print ("1+1")
+print ("The total is:",1+1)
+print (10-2)
+print (10*10)
+print (25/5)
