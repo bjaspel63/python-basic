@@ -1,0 +1,38 @@
+#!/bin/python3
+
+#basic conditional statement, if statement
+x = input ("Enter First Number: ")
+y = input ("Enter Second Number: ")
+
+if x < y :
+  print ("x is less than y")   #first conditional statement
+  #if the condition is true, the program will run
+if x > y :
+  print ("x is greater than y")
+ 
+if x == y:
+  print ("x is equal to y")
+
+x = input ("Enter First Number: ")
+y = input ("Enter Second Number: ")
+
+#if ... else statement - 2 conditions
+if x < y:
+  print ("x is less than y")   #if the answer is false
+
+else:
+  print ("x is not less than y")   #catch the statement
+ 
+ 
+#if ... elif .. else statement- 2 or more conditions
+x = input ("Enter First Number: ")
+y = input ("Enter Second Number: ")
+
+if x < y :
+  print ("x is less than y")   #first conditional statement
+
+elif x > y :                    #second condition
+  print ("x is greater than y")
+ 
+else :                            #last condition
+  print ("x is equal to y")
