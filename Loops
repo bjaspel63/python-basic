@@ -1,0 +1,27 @@
+#!/bin/python3
+
+print("hello")
+print("hello")
+print("hello")
+
+for i in range(4):
+  print("hello")
+ 
+i=0
+while i < 3:
+  print("hello")
+  i = i+1
+
+while True:
+  x = input("Enter first number: ")
+  y = input("Enter second number: ")
+ 
+  total = int(x)+int(y)
+ 
+  print("the sum is: ", total)
+ 
+  tryagain = input("Do you want to try again?")
+ 
+  if tryagain == "no" or tryagain == "No" or tryagain == "NO":
+    print("Thank you for using this product!")
+    break
