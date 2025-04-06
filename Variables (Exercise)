@@ -1,0 +1,9 @@
+#!/bin/python3
+
+vat = 0.07
+price = 3010
+
+totalvat = vat*price
+totalprice = float(totalvat) + int(price)
+
+print("Total price is:", totalprice)
