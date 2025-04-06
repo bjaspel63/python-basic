@@ -1,0 +1,25 @@
+#!/bin/python3
+
+print ("Hello")
+print (7)
+
+x = 1212      #x is the variable     7 is the value
+print (x)     #print the value of x
+
+number1 = 100
+number2 = 50
+print ("The total of 2 numbers: ", number1+number2)
+
+#number1 = variable    100 = value
+#number2 = variable    50 = value
+#print = total
+
+add1 = 30
+add2 = 40
+total = int(add1)+int(add2)
+print(total)
+
+add3 = 20
+add4 = 12
+total2 = float(add2)+float(add4)
+print(total2)
