@@ -1,0 +1,22 @@
+#!/bin/python3
+
+print("----Personal Information ----")
+print("\n")
+
+name = input("Enter Full Name: ")
+age = int(input("Enter Age: "))
+height = float (input("Enter height (in meters): "))
+weight = float(input("Enter weight (in pounds): "))
+add = input("Enter Address: ")
+student_boolean = input("Are you a student? (yes/no): ") == "yes"
+school = input("Enter School: ")
+
+print("\n")
+
+print("Full Name: ",name)
+print("Age: ", age)
+print("Height: ",height)
+print("Weight: ", weight)
+print("Address: ", add)
+print("Are you a student?: ",student_boolean)
+print("School: ",school)

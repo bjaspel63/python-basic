@@ -1,7 +1,0 @@
-#!/bin/python3
-
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-height = float(input("Enter your height in meters: "))
-student = input("Are you a student? (True/False): ") == "True"
-print("Hi, I'm " + name + ". I am ", age, " years old", height, "m tall, and student status is", student)
