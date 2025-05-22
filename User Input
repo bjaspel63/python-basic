@@ -1,26 +1,36 @@
 #!/bin/python3
 
-#variable
+#data types
+string = "Alex"       #string/text
+integer_number = 20    #integer - whole number
+float_number = 12.1    #float - number with decimals
+boolean_True_False = True    #Boolean - True or False
+
+#variable = storing data
 x = 1
 y = 1
-print ("Total: ", x+y)   #specific value
+z = x+y
+print (z)
 
 #user input
-x = input("Enter first number: ")      #first value
-y = input ("Enter second number: ")    #second value
-z = int(x) + int(y)
-print("Total: ",z)
+num1 = input("Enter first number: ")
+num2 = input ("Enter second number: ")
+total = int(num1)+int(num2)
+print (total)
+#2
+num1 = int(input("Enter first number: "))
+num2 = int(input ("Enter second number: "))
+print (num1+num2)
+#3
+num1 = float(input("Enter first number: "))
+num2 = float(input ("Enter second number: "))
+print (num1+num2)
+#string
+firstName = input("Enter first name: ")
+lastName = input ("Enter last name: ")
+print ("Full name: ",firstName+ " " +lastName)
 
-print("\n")      #extra spaces
+#boolean = true/false
 
-#user input
-x = float(input("Enter first number: "))      #first value
-y = float (input ("Enter second number: "))    #second value
-print("Total:",x+y)
-
-print("\n")       #extra spaces
-
-#text/string
-firstname = input ("Enter first name: ")
-lastname = input ("Enter last name: ")
-print ("Full name: ",firstname,"",lastname)
+boolean1 = input ("Are you okay? ") == "yes"
+print("Status: ",boolean1)
