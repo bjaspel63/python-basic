@@ -1,16 +1,24 @@
-#1. Creates a list of five numbers.
-#2. Adds a new number to the list.
-#3. Removes the first number from the list.
-#4. Prints the final list.
+#!/bin/python3
 
-# Step 1: Create a list
-numbers = [10, 20, 30, 40, 50]
+"""
+1. Create a list [10,20,30,40,50]
+2. Access the first and last number.
+3. Replace the third number. [35]
+4. Add one more number. [60]
+5. Remove one number by value. [10]
+6. Loop through and print: "The remaining number is "
+"""
 
-# Step 2: Add a new number
-numbers.append(60)
+number = [10,20,30,40,50]  #1
 
-# Step 3: Remove the first number
-numbers.remove(10)
+print ("First Number: ", number[0]) #2
+print ("Final Number: ", number[-1]) #2
 
-# Step 4: Print the final list
-print(numbers) # Output: [20, 30, 40, 50, 60]
+number [2] = 35  #3
+
+number.append(60) #4
+
+number.remove(10) #5
+
+for numbers in number: 
+    print("The remaining numbers is ",numbers) #6
