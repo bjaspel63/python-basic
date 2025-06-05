@@ -42,6 +42,9 @@ fruits.pop(0)     # removes the first item
 del fruits[1]
 print(", ".join(fruits))
 
+#modify
+fruits[1] = "Watermelon"
+print(",".join(fruits))
 
 #looping
 fruits = ["apple", "banana", "cherry"]
