@@ -22,6 +22,12 @@ def square(x):
 result = square(5)
 print(result)
 
+def area(length, width):
+    return length * width  # Area = length × width
+
+# Example
+print("Area is:", area(5, 10))  # 50
+
 #function with string
 def introduce(name, age):
     print("Hi, I'm " + name + " and I'm " + str(age) + " years old.")
