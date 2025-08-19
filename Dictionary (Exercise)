@@ -1,0 +1,56 @@
+
+#1 Favorite Color
+# Create dictionary
+friends = {
+    "Alice": "Blue",
+    "Bob": "Green",
+    "Charlie": "Red"
+}
+
+# Add new friend
+friends["David"] = "Yellow"
+
+# Change one color
+friends["Alice"] = "Purple"
+
+# Print all names and colors
+for name, color in friends.items():
+    print(f"Name: {name}, Favorite Color: {color}")
+
+#2country capital quiz
+capitals = {
+    "Thailand": "Bangkok",
+    "Japan": "Tokyo",
+    "France": "Paris",
+    "USA": "Washington D.C.",
+    "India": "New Delhi"
+}
+
+country = input("Enter a country: ")
+print("Capital:", capitals.get(country, "Not found"))
+
+#3student database
+students = {
+    "S001": {"name": "Alice", "age": 20},
+    "S002": {"name": "Bob", "age": 21}
+}
+
+# Add new student
+students["S003"] = {"name": "Charlie", "age": 19}
+
+# Print student S002’s name
+print("Student S002 name:", students["S002"]["name"])
+
+#4 shopping cart
+
+cart = {"milk": 25, "bread": 20, "eggs": 30}
+
+# Add new item
+cart["butter"] = 40
+
+# Change price of bread
+cart["bread"] = 22
+
+# Print items and prices
+for item, price in cart.items():
+    print(f"Item: {item}, Price: {price}")
